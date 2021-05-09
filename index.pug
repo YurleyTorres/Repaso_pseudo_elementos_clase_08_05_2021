@@ -1,0 +1,33 @@
+doctype html
+html(lang="sp")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
+        link(rel="shortcut icon", href="img/smiley.png", type="image/png")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous")
+        title Pseudo elementos y clase 08 05 2021
+    body 
+        a(href="http://google.com", target="_blank", rel="noopener noreferrer") Visitar pagina web
+        
+         a1(class="shield__container")
+            a1(class="container__star") 
+        div 
+            p Aumentar tamaño de la caja y cambio de color
+        p Agregar color a palabra en ingles 
+        p(lang="en") Hello 
+        input(type="text", name="")
+        input(type="text", name="" placeholder="Ingrese su nombre") 
+        h1 Hola Mundo
+            h2 
+                img(src="img/Gabriel_Garcia_Marquez.jpg")
+ 
+        mixin galeria(link)
+            div 
+                img(src=""+link)
+               
+        +galeria("img/Gabriel_Garcia_Marquez.jpg")
+        +galeria("img/Gabriel_Garcia_Marquez.jpg")
+        +galeria("img/Gabriel_Garcia_Marquez.jpg")
+            a2 soy 
